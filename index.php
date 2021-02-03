@@ -40,7 +40,7 @@
         <!--Descriocion de mis capacidaded-->
         <hr width="100%" />
         <p> 
-        Hola soy Oscar Bautista  Gaytan, estudiante de Ingeniería en desarrollo de Software actualmente curso el sexto semestre.
+            Hola soy Oscar Bautista  Gaytan, estudiante de Ingeniería en desarrollo de Software actualmente curso el sexto semestre.
         </p>
         
         </br>
