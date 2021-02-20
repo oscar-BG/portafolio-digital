@@ -1,0 +1,16 @@
+body{
+    background-color:aqua;
+}
+header{
+    background-color:blue;
+    color:white;
+    padding: 15px;
+    margin: 5px;
+}
+nav{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+}

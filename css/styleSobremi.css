@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+section{
+    width: 70%;
+    float: right;
+}
+p{
+    color: black;
+    font-size: 100%;
+}
+h2{
+    color: red;
+}
