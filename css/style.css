@@ -11,6 +11,31 @@ nav{
     background-color: red;
     color: black;
     padding: 10px;
-    margin: 5px;
+    margin: auto;
     width: 50%;
+    text-align: center;
+
+}
+
+h1.titulo{
+    text-align: center;
+    font-family: Arial, forte;
+}
+h2.tituloNom{
+    text-align: center;
+    font-family: Arial, forte;
+}
+h3.subtitulo{
+    text-align: center;
+    font-family: "Arial Black";
+    color: black;
+}
+p.texto{
+    font-family: "Comic Sans MS";
+}
+li.habilidades{
+    font-family: forte;
+}
+p.autor{
+    font-family: cursive;
 }
