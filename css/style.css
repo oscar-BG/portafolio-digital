@@ -31,18 +31,50 @@ h1.titulo{
 h2.tituloNom{
     text-align: center;
     font-family: Arial, forte;
+    font-weight: bolder;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
 }
 h3.subtitulo{
-    text-align: center;
     font-family: "Arial Black";
     color: black;
+    
 }
 p.texto{
     font-family: "Comic Sans MS";
+    font-size: large;
 }
 li.habilidades{
-    font-family: forte;
+    font-family: "Kristen ITC","Comic Sans MS", forte;
+    font-weight: bolder;
 }
 p.autor{
     font-family: cursive;
+}
+table{
+    width:50%;
+    
+}
+th, td{
+    text-align: center;
+    vertical-align: bottom;
+    border: 2px solid #000;  
+    font-family: "Comic Sans MS";
+    font-size: large;
+    font-weight: bold;
+    
+}
+td.centro{
+    text-align: center;
+    vertical-align: top;
+    font-family: "Kristen ITC";
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+td.middle{
+    vertical-align: middle;
 }
