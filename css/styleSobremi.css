@@ -4,6 +4,8 @@ body{
 p{
     color: black;
     font-size: 100%;
+    font-family:  "Kristen ITC";
+    font-weight: bold;
 }
 h2{
     color: red;

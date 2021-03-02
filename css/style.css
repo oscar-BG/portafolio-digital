@@ -27,11 +27,15 @@ section{
 h1.titulo{
     text-align: center;
     font-family: Arial, forte;
+    text-shadow: 8px -10px 3px black;
+    text-transform:capitalize;
 }
 h2.tituloNom{
     text-align: center;
     font-family: Arial, forte;
     font-weight: bolder;
+    text-shadow: 6px -8px 3px black;
+    text-transform: capitalize;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
