@@ -12,13 +12,23 @@ header{
     margin: 5px;
 }
 nav{
-    background-color: red;
-    color: black;
-    padding: 10px;
-    margin: auto;
-    width: 50%;
-    text-align: center;
+    background: #2BA4BD none repeat scroll 0 0; 
+    border: 1px solid #2BA4BD;    
+    display:table;    
+    font-size: 95%;    
+    margin-bottom: 1em;    
+    padding: 20px;    
+    width: auto;
 
+}
+nav.contacto{
+    text-align: center; 
+    border: 1px solid #aaa; 
+    font-size: 95%;    
+    margin-bottom: 1em;    
+    padding: 20px;    
+    width: auto;
+    display: block;
 }
 section{
     padding: 20px;
