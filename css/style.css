@@ -6,9 +6,10 @@ body{
 
 }
 header{
+    background-image: url("../icon/imagenPortada.jpg");
     background-color:blue;
     color:white;
-    padding: 15px;
+    padding: 40px;
     margin: 5px;
 }
 nav{
@@ -37,14 +38,14 @@ section{
 h1.titulo{
     text-align: center;
     font-family: Arial, forte;
-    text-shadow: 8px -10px 3px black;
+    text-shadow: 10px -10px 2px rgb(22, 20, 151);
     text-transform:capitalize;
 }
 h2.tituloNom{
     text-align: center;
     font-family: Arial, forte;
     font-weight: bolder;
-    text-shadow: 6px -8px 3px black;
+    text-shadow: 10px -8px 2px rgb(22, 20, 151);
     text-transform: capitalize;
 }
 h3{
@@ -91,4 +92,7 @@ td.centro{
 }
 td.middle{
     vertical-align: middle;
+}
+footer{
+    text-align: center;
 }
