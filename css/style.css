@@ -70,6 +70,9 @@ p.autor{
     font-family: cursive;
 }
 table{
+    border-collapse:separate;
+    border-spacing: 10px 10px;
+    border: 1px solid gray;
     width:50%;
     
 }
@@ -95,4 +98,9 @@ td.middle{
 }
 footer{
     text-align: center;
+}
+ul.circle{
+    list-style-image: url("../icon/vinetas.png");
+    list-style-position:unset;
+    
 }
