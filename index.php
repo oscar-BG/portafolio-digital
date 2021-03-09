@@ -60,6 +60,7 @@
                             }
                         ?>
                     </form>
+                    
                 </li>
                 <li class="habilidades">
                     Java SE <progress min="0" max="100" value="30"></progress>
