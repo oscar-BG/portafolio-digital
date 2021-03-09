@@ -3,7 +3,6 @@ body{
     border-width: 2px;
     border-style: none;
     padding: 10px;
-
 }
 header{
     background-image: url("../icon/imagenPortada.jpg");
@@ -12,17 +11,32 @@ header{
     padding: 40px;
     margin: 5px;
 }
-nav{
+.titulo{
+    text-align: center;
+    font-family: Arial, forte;
+    text-shadow: 10px -10px 2px rgb(22, 20, 151);
+    text-transform:capitalize;
+}
+/*pseudo-clase con desendiente*/
+nav ul li a h2:hover{
+    color: #F7720A;
+}
+.navegacion{
     background: #2BA4BD none repeat scroll 0 0; 
-    border: 1px solid #2BA4BD;    
+    border: 1px solid #2BA4BD;
+    border-radius: 10px; 
     display:table;    
     font-size: 95%;    
     margin-bottom: 1em;    
     padding: 20px;    
     width: auto;
-
 }
-nav.contacto{
+.circle{
+    list-style-image: url("../icon/vinetas.png");
+    list-style-position:unset; 
+}
+.contacto{
+    background: #2BA4BD none repeat scroll 0 0; 
     text-align: center; 
     border: 1px solid #aaa; 
     font-size: 95%;    
@@ -35,46 +49,28 @@ section{
     padding: 20px;
 }
 
-h1.titulo{
-    text-align: center;
-    font-family: Arial, forte;
-    text-shadow: 10px -10px 2px rgb(22, 20, 151);
-    text-transform:capitalize;
-}
-h2.tituloNom{
-    text-align: center;
-    font-family: Arial, forte;
-    font-weight: bolder;
-    text-shadow: 10px -8px 2px rgb(22, 20, 151);
-    text-transform: capitalize;
-}
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: x-large;
 }
-h3.subtitulo{
-    font-family: "Arial Black";
-    color: black;
-    
-}
-p.texto{
+
+p{
     font-family: "Comic Sans MS";
     font-size: large;
 }
-li.habilidades{
+.habilidades{
     font-family: "Kristen ITC","Comic Sans MS", forte;
     font-weight: bolder;
 }
-p.autor{
+.autor{
     font-family: cursive;
 }
 table{
     border-collapse:separate;
     border-spacing: 10px 10px;
     border: 1px solid gray;
-    width:50%;
-    
+    width:50%;  
 }
 th, td{
     text-align: center;
@@ -83,24 +79,17 @@ th, td{
     font-family: "Comic Sans MS";
     font-size: large;
     font-weight: bold;
-    
 }
-td.centro{
+.centro{
     text-align: center;
     vertical-align: top;
     font-family: "Kristen ITC";
     font-size: x-large;
     font-weight: bolder;
-    
 }
-td.middle{
+.middle{
     vertical-align: middle;
 }
 footer{
     text-align: center;
-}
-ul.circle{
-    list-style-image: url("../icon/vinetas.png");
-    list-style-position:unset;
-    
 }
