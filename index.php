@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <link rel="icon" href="icon/carpeta.png">
         <title>Portafolio digital</title>
         <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <body >
         <!-- 1.- Cabezera de mi pagina web-->
         <header>
-            <h1 class="titulo">portafolio digital de programador</h1>
+            <h1 class="titulo">portafolio digital de programador</h1> 
             <h1 class="titulo">oscar bautista gaytan</h1>
         </header>
         
@@ -21,8 +21,8 @@
         <nav class="navegacion">
             <!--a qui va mi barra de navegacion-->
             <ul class="circle">
-                <li><a href="sobre_mi.html" target="_blank"><h2>Sobre mi</h2></a></li>
-                <li><a href="#presentacion"><h2 class="hoverh2">Presentación</h2></a></li>
+                <li><a href="sobre_mi.html" target="_blank"><h3 class="subtitulo">Sobre mi</h3></a></li>
+                <li><a href="#presentacion"><h2>Presentación</h2></a></li>
                 <li><a href="#habilidades"><h2>Conocimientos</h2></a></li>
                 <li><a href="#miObjetivo"><h2>Mis objetivos</h2></a></li>
                 <li><a href="#redesSociales"><h2>Redes sociales</h2></a></li>
@@ -35,11 +35,11 @@
         <section>
             <hr width="100%" />
             <h3 id="presentacion">Presentación</h3>
-            <p class="texto">
+            <p>
                  Hola soy Oscar Bautista  Gaytan, estudiante de Ingeniería en desarrollo 
                 de Software actualmente curso el sexto semestre.
              </p>
-            <p class="texto">
+            <p>
                 Mis pasatiempos favoritos son las tecnologias de programación.
                 actualmente tengo conocimientos en lenguajes de programación en C# y java al igual que manejo de base de datos en Sql server
             </p>
@@ -51,6 +51,15 @@
                 <li class="habilidades">
                     C# <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es C#" name="SCharp">
+                        <?php
+                            if(isset($_POST["SCharp"])){
+                                echo "<br>";
+                                echo "C#: Es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET";
+                            }
+                        ?>
+                    </form>
                 </li>
                 <li class="habilidades">
                     Java SE <progress min="0" max="100" value="30"></progress>
@@ -77,7 +86,7 @@
 
             <h3 id="miObjetivo">Mis Objetivos</h3>
         
-            <p class="texto">
+            <p>
                 Nunca terminamos de aprender y mis objetivos van cambiando buscando nuevos caminos que me ayuden a mi desarrollo profesional
             </p>
         
@@ -107,8 +116,8 @@
         </section> 
         </br>
 
-           <h3 class="subtitulo" id="redesSociales"> <nav class="contacto">
-        Redes Sociales</h3>
+        <nav class="contacto">
+            <h3 class="subtitulo" id="redesSociales">Redes Sociales</h3>
             <a href="https://github.com/oscar-BG" target="_blank">
                 <img src="https://img.icons8.com/ios-filled/50/000000/github.png" 
                 alt="icono de GitHub"
