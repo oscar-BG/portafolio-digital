@@ -66,11 +66,12 @@
                     Java SE <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/dusk/64/000000/java-coffee-cup-logo.png"/>
                     <form action="index.php" method="POST">
-                        <input type="submit" value="¿Que es Java SE" name="javaSE">
+                        <input type="submit" value="¿Que es Java SE?" name="javaSE">
                         <?php
                             if(isset($_POST["javaSE"])){
                                 echo "<br>";
-                                echo "Java se";
+                                echo "Java es un tipo de lenguaje de programación y una plataforma informática, creada y comercializada por Sun Microsystems en el año 1995.<br> 
+                                Se constituye como un lenguaje orientado a objetos, su intención es permitir que los desarrolladores de aplicaciones escriban el programa una sola vez y lo ejecuten en cualquier dispositivo.";
                             }
                         ?>
                     </form>
@@ -78,18 +79,64 @@
                 <li class="habilidades">
                     Sql server <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/plasticine/100/000000/add-database.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es Sql server?" name="sql">
+                        <?php
+                            if(isset($_POST["sql"])){
+                                echo "<br>";
+                                echo "SQL Server es un sistema de gestión de bases de datos relacionales (RDBMS) de 
+                                Microsoft que está diseñado para el entorno empresarial. SQL Server se ejecuta en 
+                                T-SQL (Transact -SQL), un conjunto de extensiones de programación de Sybase y Microsoft 
+                                que añaden varias características a SQL estándar, incluyendo control de transacciones, 
+                                excepción y manejo de errores, procesamiento fila, así como variables declaradas.";
+                            }
+                        ?>
+                    </form>
                 </li>
                 <li class="habilidades">
                     MySQL <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es MySQL?" name="mySql">
+                        <?php
+                            if(isset($_POST["mySql"])){
+                                echo "<br>";
+                                echo "MySQL es un sistema de administración de bases de datos 
+                                (Database Management System, DBMS) para bases de datos relacionales. ";
+                            }
+                        ?>
+                    </form>
                 </li>
                 <li class="habilidades">
                     Git <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/color/48/000000/git.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es git?" name="git">
+                        <?php
+                            if(isset($_POST["git"])){
+                                echo "<br>";
+                                echo "Git, es un software de control de versiones diseñado por Linus Torvalds. 
+                                La pregunta es ¿qué es control de versiones? Pues bien, se define como 
+                                control de versiones a la gestión de los diversos cambios que se
+                                 realizan sobre los elementos de algún producto o una configuración del mismo";
+                            }
+                        ?>
+                    </form>
                 </li>
                 <li class="habilidades">
                     GitHub <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es GitHub?" name="gitHub">
+                        <?php
+                            if(isset($_POST["gitHub"])){
+                                echo "<br>";
+                                echo "GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores a
+                                 almacenar y administrar su código, al igual que llevar un registro y control de cualquier 
+                                 cambio sobre este código.";
+                            }
+                        ?>
+                    </form>
                 </li>
             </ol>
             </br>
