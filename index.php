@@ -65,6 +65,15 @@
                 <li class="habilidades">
                     Java SE <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/dusk/64/000000/java-coffee-cup-logo.png"/>
+                    <form action="index.php" method="POST">
+                        <input type="submit" value="¿Que es Java SE" name="javaSE">
+                        <?php
+                            if(isset($_POST["javaSE"])){
+                                echo "<br>";
+                                echo "Java se";
+                            }
+                        ?>
+                    </form>
                 </li>
                 <li class="habilidades">
                     Sql server <progress min="0" max="100" value="30"></progress>
