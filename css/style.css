@@ -1,9 +1,11 @@
+/*Metodologia BEM*/
 body{
     background-color:aqua;
     border-width: 2px;
     border-style: none;
     padding: 10px;
 }
+
 header{
     background-image: url("../icon/imagenPortada.jpg");
     background-color:blue;
@@ -11,31 +13,32 @@ header{
     padding: 40px;
     margin: 5px;
 }
-.titulo{
+.header__titulo{
     text-align: center;
     font-family: Arial, forte;
     text-shadow: 10px -10px 2px rgb(22, 20, 151);
     text-transform:capitalize;
 }
 /*pseudo-clase con desendiente*/
+
 nav ul li a h2:hover{
     color: #F7720A;
 }
-.navegacion{
+.nav{
     background: #2BA4BD none repeat scroll 0 0; 
     border: 1px solid #2BA4BD;
     border-radius: 10px; 
     display:table;    
     font-size: 95%;    
     margin-bottom: 1em;    
-    padding: 20px;    
+    padding: 50px;    
     width: auto;
 }
-.circle{
+.nav__circle{
     list-style-image: url("../icon/vinetas.png");
     list-style-position:unset; 
 }
-.contacto{
+.nav__contacto{
     background: #2BA4BD none repeat scroll 0 0; 
     text-align: center; 
     border: 1px solid #aaa; 
@@ -59,11 +62,11 @@ p{
     font-family: "Comic Sans MS";
     font-size: large;
 }
-.habilidades{
-    font-family: "Kristen ITC","Comic Sans MS", forte;
+.ol__habilidades{
+    font-family: 'Comic Neue', "Kristen ITC","Comic Sans MS";
     font-weight: bolder;
 }
-.autor{
+.h3__autor{
     font-family: cursive;
 }
 table{

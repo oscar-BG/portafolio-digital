@@ -9,18 +9,20 @@
         <meta name="description" content="Oscar Bautista Gaytan Programador en SCharp & Java"/>
         <meta name="author" content="Oscar Bautista Gaytan"/>
         <meta name="keywords" content="Portafolio Digital, programador, lenguajes de programacion, Oscar Bautista Gaytan"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Ranchers&display=swap" rel="stylesheet">
     </head>
     <body >
         <!-- 1.- Cabezera de mi pagina web-->
         <header>
-            <h1 class="titulo">portafolio digital de programador</h1> 
-            <h1 class="titulo">oscar bautista gaytan</h1>
+            <h1 class="header__titulo">portafolio digital de programador</h1> 
+            <h1 class="header__titulo">oscar bautista gaytan</h1>
         </header>
         
         <!-- 2.- Barra de navegación de mi pagina web-->
-        <nav class="navegacion">
+        <nav class="nav">
             <!--a qui va mi barra de navegacion-->
-            <ul class="circle">
+            <ul class="nav__circle">
                 <li><a href="sobre_mi.html" target="_blank"><h3 class="subtitulo">Sobre mi</h3></a></li>
                 <li><a href="#presentacion"><h2>Presentación</h2></a></li>
                 <li><a href="#habilidades"><h2>Conocimientos</h2></a></li>
@@ -36,7 +38,7 @@
             <hr width="100%" />
             <h3 id="presentacion">Presentación</h3>
             <p>
-                 Hola soy Oscar Bautista  Gaytan, estudiante de Ingeniería en desarrollo 
+                 Hola soy <strong>Oscar Bautista  Gaytan</strong>, estudiante de Ingeniería en desarrollo 
                 de Software actualmente curso el sexto semestre.
              </p>
             <p>
@@ -47,9 +49,9 @@
         
             <h3 id="habilidades">Conocimientos</h3>
         
-            <ol >
-                <li class="habilidades">
-                    C# <progress min="0" max="100" value="30"></progress>
+            <ol class="ol__habilidades">
+                <li>
+                    <strong>C# </strong><progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es C#" name="SCharp">
@@ -62,8 +64,8 @@
                     </form>
                     
                 </li>
-                <li class="habilidades">
-                    Java SE <progress min="0" max="100" value="30"></progress>
+                <li>
+                    <strong>Java SE</strong> <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/dusk/64/000000/java-coffee-cup-logo.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es Java SE?" name="javaSE">
@@ -76,8 +78,8 @@
                         ?>
                     </form>
                 </li>
-                <li class="habilidades">
-                    Sql server <progress min="0" max="100" value="30"></progress>
+                <li>
+                    <strong>Sql server </strong><progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/plasticine/100/000000/add-database.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es Sql server?" name="sql">
@@ -93,8 +95,8 @@
                         ?>
                     </form>
                 </li>
-                <li class="habilidades">
-                    MySQL <progress min="0" max="100" value="30"></progress>
+                <li>
+                    <strong>MySQL</strong> <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es MySQL?" name="mySql">
@@ -107,8 +109,8 @@
                         ?>
                     </form>
                 </li>
-                <li class="habilidades">
-                    Git <progress min="0" max="100" value="30"></progress>
+                <li>
+                    <strong>Git</strong> <progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/color/48/000000/git.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es git?" name="git">
@@ -123,8 +125,8 @@
                         ?>
                     </form>
                 </li>
-                <li class="habilidades">
-                    GitHub <progress min="0" max="100" value="30"></progress>
+                <li>
+                    <strong>GitHub</strong><progress min="0" max="100" value="30"></progress>
                     <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
                     <form action="index.php" method="POST">
                         <input type="submit" value="¿Que es GitHub?" name="gitHub">
@@ -173,7 +175,7 @@
         </section> 
         </br>
 
-        <nav class="contacto">
+        <nav class="nav__contacto">
             <h3 class="subtitulo" id="redesSociales">Redes Sociales</h3>
             <a href="https://github.com/oscar-BG" target="_blank">
                 <img src="https://img.icons8.com/ios-filled/50/000000/github.png" 
@@ -194,9 +196,16 @@
         <!--5 pie de pagina-->
         <footer>
             <aside>
-                <h3>Autor</h3>
-                <p class="autor">Autor: Oscar Bautista Gaytan</p>
-                <time datetime="01-02-2021"> 1 de febrero del 2021</time>
+                <p class="h3__autor">Autor: <strong>Oscar Bautista Gaytan<strong></p>
+                <?php
+                    $day = date("d");
+                    $month = date("m");
+                    $year = date("y");
+                    $monthArray = array('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+                    echo "<time>".$day." De ".$monthArray[$month -1]." Del "."20".$year;
+                    //echo "<time datetime="01-02-2021"> 1 de febrero del 2021</time>";
+                ?>
+                
             </aside> 
         </footer>
     </body>
