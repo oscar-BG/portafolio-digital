@@ -18,10 +18,30 @@
             <h1 class="header__titulo">portafolio digital de programador</h1> 
             <h1 class="header__titulo">oscar bautista gaytan</h1>
         </header>
-        
-        <!-- 2.- Barra de navegación de mi pagina web-->
         <nav class="nav">
-            <!--a qui va mi barra de navegacion-->
+            <table style="border: none;" class="nav_table">
+                <tr>
+                    <td>
+                        <a href="sobre_mi.html" target="_blank">Sobre mi</a>
+                    </td>
+                    <td>
+                        <a href="#presentacion">Presentación</a>
+                    </td>
+                    <td>
+                        <a href="#habilidades">Conocimientos</a>
+                    </td>
+                    <td>
+                        <a href="#miObjetivo">Mis objetivos</a>
+                    </td>
+                    <td>
+                        <a href="#redesSociales">Redes sociales</a>
+                    </td>
+                </tr>
+            </table>  
+        </nav>
+        <!-- 2.- Barra de navegación de mi pagina web-->
+        <!--
+        <nav class="nav">
             <ul class="nav__circle">
                 <li><a href="sobre_mi.html" target="_blank"><h3 class="subtitulo">Sobre mi</h3></a></li>
                 <li><a href="#presentacion"><h2>Presentación</h2></a></li>
@@ -29,7 +49,7 @@
                 <li><a href="#miObjetivo"><h2>Mis objetivos</h2></a></li>
                 <li><a href="#redesSociales"><h2>Redes sociales</h2></a></li>
             </ul>
-        </nav>
+        </nav>-->
         <br/>
         
         <!--Descriocion de mis capacidaded-->
@@ -149,7 +169,7 @@
                 Nunca terminamos de aprender y mis objetivos van cambiando buscando nuevos caminos que me ayuden a mi desarrollo profesional
             </p>
         
-            <table align="center" >
+            <table align="center">
                 <tr>
                     <td class="centro" colspan="2">
                         <b>

@@ -28,11 +28,9 @@ nav ul li a h2:hover{
     background: #2BA4BD none repeat scroll 0 0; 
     border: 1px solid #2BA4BD;
     border-radius: 10px; 
-    display:table;    
+    display:block;    
     font-size: 95%;    
     margin-bottom: 1em;    
-    padding: 50px;    
-    width: auto;
 }
 .nav__circle{
     list-style-image: url("../icon/vinetas.png");
@@ -69,6 +67,12 @@ p{
 .h3__autor{
     font-family: cursive;
 }
+.nav_table{
+    border-collapse:separate;
+    border-spacing: 10px 10px;
+    width: 100%; 
+}
+
 table{
     border-collapse:separate;
     border-spacing: 10px 10px;
@@ -95,4 +99,7 @@ th, td{
 }
 footer{
     text-align: center;
+}
+a:hover{
+    color:#006400;
 }
