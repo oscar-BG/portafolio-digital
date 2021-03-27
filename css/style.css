@@ -1,6 +1,6 @@
 /*Metodologia BEM*/
 body{
-    background-color:aqua;
+    /*background-color:aqua;*/
     border-width: 2px;
     border-style: none;
     padding: 10px;
@@ -8,6 +8,7 @@ body{
 
 header{
     background-image: url("../icon/imagenPortada.jpg");
+    border-radius: 10px;
     background-color:blue;
     color:white;
     padding: 40px;
@@ -19,11 +20,7 @@ header{
     text-shadow: 10px -10px 2px rgb(22, 20, 151);
     text-transform:capitalize;
 }
-/*pseudo-clase con desendiente*/
 
-nav ul li a h2:hover{
-    color: #F7720A;
-}
 .nav{
     background: #2BA4BD none repeat scroll 0 0; 
     border: 1px solid #2BA4BD;
@@ -37,9 +34,9 @@ nav ul li a h2:hover{
     list-style-position:unset; 
 }
 .nav__contacto{
-    background: #2BA4BD none repeat scroll 0 0; 
+    /*background: #2BA4BD none repeat scroll 0 0;*/
     text-align: center; 
-    border: 1px solid #aaa; 
+    /*border: 1px solid #aaa;*/ 
     font-size: 95%;    
     margin-bottom: 1em;    
     padding: 20px;    
@@ -59,13 +56,15 @@ h3{
 p{
     font-family: "Comic Sans MS";
     font-size: large;
+    text-align: justify;
 }
 .ol__habilidades{
     font-family: 'Comic Neue', "Kristen ITC","Comic Sans MS";
     font-weight: bolder;
 }
-.h3__autor{
+.p__autor{
     font-family: cursive;
+    text-align: center;
 }
 .nav_table{
     border-collapse:separate;
@@ -76,8 +75,8 @@ p{
 table{
     border-collapse:separate;
     border-spacing: 10px 10px;
-    border: 1px solid gray;
-    width:50%;  
+    /*border: 1px solid gray;*/
+    width:100%;  
 }
 th, td{
     text-align: center;
@@ -86,6 +85,12 @@ th, td{
     font-family: "Comic Sans MS";
     font-size: large;
     font-weight: bold;
+}
+th{
+    background-color: #ffb600;
+}
+tr{
+    background-color: #f5ffc6;
 }
 .centro{
     text-align: center;
@@ -99,7 +104,32 @@ th, td{
 }
 footer{
     text-align: center;
+    background-color:#000;
+    color: white;
+    border-radius: 10px;
 }
+/*hover: cuando el cursor pasa sobre el*/
 a:hover{
     color:#006400;
+    text-decoration: underline;
+    
+}
+td:hover{
+    background-color: #c1fba4;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+}
+article{
+    background-color: aqua;
+    border-radius: 10px;
+}
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    border-style:dashed;
+    
+    
 }
