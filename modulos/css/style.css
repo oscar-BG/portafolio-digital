@@ -20,18 +20,26 @@ header{
     text-shadow: 10px -10px 2px rgb(22, 20, 151);
     text-transform:capitalize;
 }
-
-.nav{
-    background: #2BA4BD none repeat scroll 0 0; 
-    border: 1px solid #2BA4BD;
-    border-radius: 10px; 
-    display:block;    
-    font-size: 95%;    
-    margin-bottom: 1em;    
+.div_nav ul{
+    list-style-type: none;
+    background-color: #023047;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
-.nav__circle{
-    list-style-image: url("../icon/vinetas.png");
-    list-style-position:unset; 
+.div_nav ul li{
+    float: left;
+}
+.div_nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+.div_nav ul li a:hover{
+    background-color: #219ebc;
 }
 .nav__contacto{
     /*background: #2BA4BD none repeat scroll 0 0;*/
@@ -61,6 +69,7 @@ p{
 .ol__habilidades{
     font-family: 'Comic Neue', "Kristen ITC","Comic Sans MS";
     font-weight: bolder;
+    float: left;
 }
 .p__autor{
     font-family: cursive;
@@ -113,13 +122,6 @@ a:hover{
     color:#006400;
     text-decoration: underline;
     
-}
-td:hover{
-    background-color: #c1fba4;
-}
-a{
-    padding: 20px;
-    text-decoration: none;
 }
 article{
     background-color: aqua;
