@@ -5,7 +5,9 @@ body{
     border-style: none;
     padding: 10px;
 }
-
+/********************************
+    Cabezera de la pagina
+**********************************/
 header{
     background-image: url("../icon/imagenPortada.jpg");
     border-radius: 10px;
@@ -20,6 +22,9 @@ header{
     text-shadow: 10px -10px 2px rgb(22, 20, 151);
     text-transform:capitalize;
 }
+/************************
+    Menu de la pagina
+***************************/
 .div_nav ul{
     list-style-type: none;
     background-color: #023047;
@@ -41,6 +46,7 @@ header{
 .div_nav ul li a:hover{
     background-color: #219ebc;
 }
+/*  */
 .nav__contacto{
     /*background: #2BA4BD none repeat scroll 0 0;*/
     text-align: center; 
@@ -134,4 +140,29 @@ caption{
     border-style:dashed;
     
     
+}
+/**********************************
+    Galeria (certificados)
+***********************************/
+.contenedor_img{
+    width: 100%;
+    overflow:hidden;
+    padding: 5px;
+}
+.galeria{
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+.galeria img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*********** Elemenos resposivos ************/
+@media(max-width:600px){
+    
+    .div_nav li{
+        float: none;
+    }
 }
