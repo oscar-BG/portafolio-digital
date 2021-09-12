@@ -77,7 +77,11 @@
                     </div>
                 </div>
                 </br>
-
+                <!-- Seccion de trabajos -->
+                <h3>Trabajos realizados</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RCZ2I9a-8oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kIooNro8FnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- Seccion de objetivco -->
                 <h3 id="miObjetivo">Mis Objetivos</h3>
         
                 <p>
