@@ -1,13 +1,27 @@
 body{
-    background-color: aqua;
+    background-color: black;
+    background-image: url("../icon/iroman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 div{
-    color: black;
-    font-size: 100%;
+    border: 20px groove blue;
+    border-radius: 10px;
     font-family:  "Kristen ITC";
-    font-weight: bold;
+    font-size: xx-large;
+    font-weight: bolder;
     text-align: center;
+    padding: 1px 50px 1px 50px;
+    margin: auto;
+    color: #59a5d8;
 }
+
 #div__h2{
     color: red;
+}
+@media(max-width:600px){
+    
+    #div__h2{
+        font-size: large;
+    }
 }
