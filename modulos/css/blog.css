@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+header{
+    border:2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+header .titulo{
+    font-family: 'Staatliches', cursive;
+    font-size: xx-large;
+}
+.centrar{
+    text-align: center;
+}
+article{
+    width: 100%;
+    margin: 20px auto;
+}
+section{
+    border: 1px solid black;
+    margin: 3px;
+    width: 46%;
+    height: 50px;
+    float: left;
+    border-radius: 10px;
+}
