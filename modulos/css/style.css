@@ -47,6 +47,14 @@ header{
     background-color: #219ebc;
 }
 /* Conocimientos */
+.contenedor_con{
+    display: flex;
+    flex-flow: row wrap;
+}
+div.conocimientos{
+    padding: 15px;
+    max-width: 200px;
+}
 
 /*  */
 
