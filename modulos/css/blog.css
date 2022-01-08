@@ -1,26 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+body{
+    background-color: #6c757d;
+}
 header{
-    border:2px solid red;
-    border-radius: 10px;
-    padding: 10px;
+    background-color: #1e88e5;
+    background-image: url("../icon/fondo.jpg");
     text-align: center;
+    height: 500px;
+    position: relative;
+    text-align: left;
 }
 header .titulo{
-    font-family: 'Staatliches', cursive;
-    font-size: xx-large;
+    font-family: 'Rampart One', cursive;
+    font-size:xx-large;
+    color: rgb(14, 117, 165);
+    margin: 10px;
 }
-.centrar{
-    text-align: center;
+.ventana{
+    border: 1px solid black;
+}
+.c-sharp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.java{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{
+    max-width: 100px;
 }
 article{
     width: 100%;
     margin: 20px auto;
 }
 section{
-    border: 1px solid black;
-    margin: 3px;
-    width: 46%;
-    height: 50px;
-    float: left;
+    border: 1px solid white;
     border-radius: 10px;
+    background-color: white;
+    min-height: 250px;
+    position: relative;
+    width: 46%;
+    margin: 3px;
+    padding: 20px;
+    float: left;
+}
+
+div.centrar{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+span{
+    font-size: 40px;
+    color: rgb(12, 145, 83);
 }
